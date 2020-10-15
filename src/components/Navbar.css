@@ -1,0 +1,14 @@
+.header___link {
+  color: white;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+
+.header {
+  background-color: #282d33;
+  text-align: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
