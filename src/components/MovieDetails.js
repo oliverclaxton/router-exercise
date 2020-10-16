@@ -12,7 +12,7 @@ const MovieDetails = () => {
   useEffect(() => {
     async function fetchDetails() {
       const response = await axios.get(
-        `http://www.omdbapi.com/?i=${params.imdbID}&apikey=2a5b9544`
+        `https://www.omdbapi.com/?i=${params.imdbID}&apikey=2a5b9544`
       );
       console.log(response);
       setMovieDetails({ status: "success", data: response.data });
