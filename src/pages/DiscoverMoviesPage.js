@@ -21,6 +21,7 @@ const DiscoverMoviesPage = () => {
     setSearchText("");
 
     console.log("sucess  searched movies are!!!!", response.data.Search);
+
     setMovies({ status: "success", data: response.data.Search });
   };
 
